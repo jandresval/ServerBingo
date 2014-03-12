@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>System.Configuration.Abstractions</id>
+    <version>1.1.5064.25905</version>
+    <title>System.Configuration.Abstractions</title>
+    <authors>David Whitney</authors>
+    <owners>David Whitney</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/davidwhitney/System.Configuration.Abstractions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Interfaced wrappers around System Configuration ConfigurationManager with support for extensibility points and strongly typed helpers.</description>
+    <summary>Interfaced wrappers around System Configuration ConfigurationManager with support for extensibility points and strongly typed helpers.</summary>
+    <releaseNotes />
+    <copyright>Copyright 2013</copyright>
+    <language />
+    <tags>ConfigurationManager Abstraction System.Configuration</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
