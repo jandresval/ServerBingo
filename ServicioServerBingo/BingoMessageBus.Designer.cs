@@ -1,6 +1,6 @@
 ﻿namespace ServicioServerBingo
 {
-    partial class Service1
+    partial class BingoMessageBus
     {
         /// <summary> 
         /// Variable del diseñador requerida.
@@ -17,6 +17,11 @@
             {
                 components.Dispose();
             }
+            if (SignalR != null)
+            {
+                SignalR.Dispose();
+                SignalR = null;
+            }
             base.Dispose(disposing);
         }
 
@@ -29,7 +34,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            this.ServiceName = "BingoMessageBus";
         }
 
         #endregion
