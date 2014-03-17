@@ -20,21 +20,26 @@ namespace ClienteServerBingo.Core
 
         public void SendBalotas(string user, string balota)
         {
-            var hubConnection = new HubConnection(ConfigManager.Url());
+            var hubConnection = new HubConnection(ConfigManager.Url);
             myHubProxy = hubConnection.CreateHubProxy("BingoHub");
-
-            myHubProxy.On<string, string>("Send", (name, message) => Console.Write("Recieved addMessage: " + name + ": " + message + "\n"));
 
             hubConnection.Start().Wait(10000);
 
-            myHubProxy.Invoke("Send", user, balota).ContinueWith(task =>
-                {
-                    if (task.IsFaulted)
+            try
+            {
+                myHubProxy.Invoke("Send", user, balota).ContinueWith(task =>
                     {
-                        Console.WriteLine("!!! There was an error opening the connection:{0} \n", task.Exception.GetBaseException());
-                    }
+                        if (task.IsFaulted)
+                        {
+                            Console.WriteLine("!!! There was an error opening the connection:{0} \n", task.Exception.GetBaseException());
+                        }
 
-                }).Wait(10000);
+                    }).Wait(10000);
+            }
+            catch
+            {
+                Console.WriteLine(ConfigManager.ErrorIntentarAgain);
+            }
         }
     }
 }

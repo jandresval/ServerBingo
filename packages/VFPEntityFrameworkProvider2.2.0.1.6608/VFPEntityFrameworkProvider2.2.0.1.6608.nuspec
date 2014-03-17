@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VFPEntityFrameworkProvider2</id>
+    <version>2.0.1.6608</version>
+    <title>VFPEntityFrameworkProvider2</title>
+    <authors>Tom Brothers</authors>
+    <owners>Tom Brothers</owners>
+    <projectUrl>http://vfpefprovider.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Entity Framework 6 Provider for VFP data.</description>
+    <summary>Entity Framework 6 Provider for Visual FoxPro data.</summary>
+    <releaseNotes />
+    <copyright />
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="VfpClient" version="0.5.13.6030" />
+      <dependency id="EntityFramework" version="6.0.0" />
+    </dependencies>
+  </metadata>
+</package>

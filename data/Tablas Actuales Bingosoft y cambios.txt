@@ -99,7 +99,8 @@ Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNul
    31  TBLGANAC        Entero                  4                             No Valor para Estadisticas. # de veces que gana en juego lleno
    32  TBLGANAF        Entero                  4                             No Valor para Estadisticas. # de veces que gana en juego sencillo
    33  TBLFREE         Carácter                2                             No Casilla en la que tiene el FREE (Por lo general es la N3)
-   34  TBLPIRAM        Carácter                5            Asc   Machine    No Número de la pirámide a la que pertenece. Vacio es tabla suelta      35  TBLANOTA        Carácter                6                             No Código del Anotador que anotó ésta tabla en el juego actual
+   34  TBLPIRAM        Carácter                5            Asc   Machine    No Número de la pirámide a la que pertenece. Vacio es tabla suelta      
+   35  TBLANOTA        Carácter                6                             No Código del Anotador que anotó ésta tabla en el juego actual
    36  TBLVLRJGO       Númerico                6                             No Valor de la tabla para ser anotada en el juego actual
    37  TBLNVECES       Númerico                2                             No Cantidad de veces que fué anotada la tabla en el juego actual
    38  TBLPOSPIRA      Númerico                1                             No Posición de la tabla en la pirámideo (0 si es una tabla suelta)

@@ -7,33 +7,30 @@ using System.Configuration;
 
 namespace ClienteServerBingo.Config
 {
-    public static class ConfigManager
+    public class ConfigManager
     {
 
-        public static string BaseIp()
-        {
-            return ConfigurationManager.AppSettings["BaseIp"].ToString();
+        public static string BaseIP { 
+            get { return ConfigurationManager.AppSettings["BaseIp"].ToString(); } 
         }
 
-        public static string Port()
-        {
-            return ConfigurationManager.AppSettings["Port"].ToString();
+        public static string Port { 
+            get { return ConfigurationManager.AppSettings["Port"].ToString(); } 
         }
 
-        public static string ApplicationName()
-        {
-            return ConfigurationManager.AppSettings["ApplicationName"].ToString();
+        public static string ApplicationName { 
+            get { return ConfigurationManager.AppSettings["ApplicationName"].ToString(); } 
         }
 
-        public static string HelpServer()
-        {
-            return ConfigurationManager.AppSettings["Signal"].ToString();
+        public static string HelpServer { 
+            get { return ConfigurationManager.AppSettings["Signal"].ToString(); } 
         }
 
-        public static string Url()
-        {
-            return "http://" + BaseIp() + ":" + Port() + "/" + ApplicationName() + "/" + HelpServer();
+        public static string Url { 
+            get { return "http://" + BaseIP + ":" + Port + "/" + ApplicationName + "/" + HelpServer; } 
         }
+
+        public static string ErrorIntentarAgain { get { return ConfigurationManager.AppSettings["ErrorIntentarAgain"].ToString(); } }
 
     }
 }

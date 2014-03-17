@@ -1,0 +1,84 @@
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 9ba23f26-d831-4fec-b771-5aceacafef18 is New.
+SignalR.Transports.LongPollingTransport Verbose: 0 : DrainWrites(9ba23f26-d831-4fec-b771-5aceacafef18)
+SignalR.Transports.LongPollingTransport Error: 0 : CompleteRequest (9ba23f26-d831-4fec-b771-5aceacafef18) failed: Microsoft.AspNet.SignalR.HubException: La mac enviada no es valida.
+   at ServerBingo.BingoHub.OnConnected() in d:\projects\C#\ServerBingo\ServerBingo\BingoHub.cs:line 68
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass9.<BuildConnect>b__7(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass9.<BuildConnect>b__7(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipeline.Connect(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.<>c__DisplayClass2a.<ExecuteHubEvent>b__26(IHub instance)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.ExecuteHubEvent(IRequest request, String connectionId, Func`2 action)
+   at Microsoft.AspNet.SignalR.PersistentConnection.<>c__DisplayClassa.<ProcessRequest>b__3()
+   at Microsoft.AspNet.SignalR.TaskAsyncHelper.FromMethod(Func`1 func)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 972134f1-5c4c-43b3-b853-f9c9ee2f8705 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9ba23f26-d831-4fec-b771-5aceacafef18 is dead
+SignalR.Transports.LongPollingTransport Verbose: 0 : DrainWrites(972134f1-5c4c-43b3-b853-f9c9ee2f8705)
+SignalR.Transports.LongPollingTransport Error: 0 : CompleteRequest (972134f1-5c4c-43b3-b853-f9c9ee2f8705) failed: Microsoft.AspNet.SignalR.HubException: La mac enviada no es valida.
+   at ServerBingo.BingoHub.OnConnected() in d:\projects\C#\ServerBingo\ServerBingo\BingoHub.cs:line 68
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass9.<BuildConnect>b__7(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass9.<BuildConnect>b__7(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipeline.Connect(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.<>c__DisplayClass2a.<ExecuteHubEvent>b__26(IHub instance)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.ExecuteHubEvent(IRequest request, String connectionId, Func`2 action)
+   at Microsoft.AspNet.SignalR.PersistentConnection.<>c__DisplayClassa.<ProcessRequest>b__3()
+   at Microsoft.AspNet.SignalR.TaskAsyncHelper.FromMethod(Func`1 func)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection f5bbfacb-25de-4284-99b8-cc6a3a4f96b3 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 972134f1-5c4c-43b3-b853-f9c9ee2f8705 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9ba23f26-d831-4fec-b771-5aceacafef18 is dead
+SignalR.Transports.LongPollingTransport Verbose: 0 : DrainWrites(f5bbfacb-25de-4284-99b8-cc6a3a4f96b3)
+SignalR.Transports.LongPollingTransport Error: 0 : CompleteRequest (f5bbfacb-25de-4284-99b8-cc6a3a4f96b3) failed: Microsoft.AspNet.SignalR.HubException: La mac enviada no es valida.
+   at ServerBingo.BingoHub.OnConnected() in d:\projects\C#\ServerBingo\ServerBingo\BingoHub.cs:line 68
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass9.<BuildConnect>b__7(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass9.<BuildConnect>b__7(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipeline.Connect(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.<>c__DisplayClass2a.<ExecuteHubEvent>b__26(IHub instance)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.ExecuteHubEvent(IRequest request, String connectionId, Func`2 action)
+   at Microsoft.AspNet.SignalR.PersistentConnection.<>c__DisplayClassa.<ProcessRequest>b__3()
+   at Microsoft.AspNet.SignalR.TaskAsyncHelper.FromMethod(Func`1 func)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 972134f1-5c4c-43b3-b853-f9c9ee2f8705 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9ba23f26-d831-4fec-b771-5aceacafef18 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : f5bbfacb-25de-4284-99b8-cc6a3a4f96b3 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 972134f1-5c4c-43b3-b853-f9c9ee2f8705 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9ba23f26-d831-4fec-b771-5aceacafef18 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : f5bbfacb-25de-4284-99b8-cc6a3a4f96b3 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 972134f1-5c4c-43b3-b853-f9c9ee2f8705 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9ba23f26-d831-4fec-b771-5aceacafef18 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : f5bbfacb-25de-4284-99b8-cc6a3a4f96b3 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 972134f1-5c4c-43b3-b853-f9c9ee2f8705 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9ba23f26-d831-4fec-b771-5aceacafef18 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 9ba23f26-d831-4fec-b771-5aceacafef18
+SignalR.Transports.LongPollingTransport Information: 0 : Abort(9ba23f26-d831-4fec-b771-5aceacafef18)
+SignalR.Transports.LongPollingTransport Information: 0 : End(9ba23f26-d831-4fec-b771-5aceacafef18)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : f5bbfacb-25de-4284-99b8-cc6a3a4f96b3 is dead
+SignalR.Transports.LongPollingTransport Verbose: 0 : DrainWrites(9ba23f26-d831-4fec-b771-5aceacafef18)
+SignalR.Transports.LongPollingTransport Information: 0 : CompleteRequest (9ba23f26-d831-4fec-b771-5aceacafef18)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection bf9be47f-44fa-45ba-9489-f1f9cab599bc is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 972134f1-5c4c-43b3-b853-f9c9ee2f8705 is dead
+SignalR.Transports.LongPollingTransport Verbose: 0 : DrainWrites(bf9be47f-44fa-45ba-9489-f1f9cab599bc)
+SignalR.Transports.LongPollingTransport Verbose: 0 : DrainWrites(bf9be47f-44fa-45ba-9489-f1f9cab599bc)
+SignalR.Transports.LongPollingTransport Information: 0 : CompleteRequest (bf9be47f-44fa-45ba-9489-f1f9cab599bc)
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 972134f1-5c4c-43b3-b853-f9c9ee2f8705
+SignalR.Transports.LongPollingTransport Error: 0 : CompleteRequest (bf9be47f-44fa-45ba-9489-f1f9cab599bc) failed: Microsoft.AspNet.SignalR.HubException: La mac enviada no es valida.
+   at ServerBingo.BingoHub.OnConnected() in d:\projects\C#\ServerBingo\ServerBingo\BingoHub.cs:line 68
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass9.<BuildConnect>b__7(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass9.<BuildConnect>b__7(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipeline.Connect(IHub hub)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.<>c__DisplayClass2a.<ExecuteHubEvent>b__26(IHub instance)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.ExecuteHubEvent(IRequest request, String connectionId, Func`2 action)
+   at Microsoft.AspNet.SignalR.PersistentConnection.<>c__DisplayClassa.<ProcessRequest>b__3()
+   at Microsoft.AspNet.SignalR.TaskAsyncHelper.FromMethod(Func`1 func)
+SignalR.Transports.LongPollingTransport Information: 0 : Abort(972134f1-5c4c-43b3-b853-f9c9ee2f8705)
+SignalR.Transports.LongPollingTransport Information: 0 : End(972134f1-5c4c-43b3-b853-f9c9ee2f8705)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : bf9be47f-44fa-45ba-9489-f1f9cab599bc is dead
+SignalR.Transports.

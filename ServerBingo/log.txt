@@ -1,0 +1,72 @@
+
+Log Entry : 8:37:00 PM March-13-14
+  :
+  :Hub OnDisconnected 93156835-37d9-4418-809a-1bcaac92b952
+
+-------------------------------
+
+Log Entry : 8:38:16 PM March-13-14
+  :
+  :Hub OnDisconnected 443e6226-f55c-4682-b658-362c2c613d3f
+
+-------------------------------
+
+Log Entry : 8:46:12 PM March-13-14
+  :
+  :Hub OnDisconnected 7e3693bc-62a8-4617-bc1d-3771eeb17cec
+
+-------------------------------
+
+Log Entry : 8:59:46 PM March-13-14
+  :
+  :Hub OnDisconnected 9ba23f26-d831-4fec-b771-5aceacafef18
+
+-------------------------------
+
+Log Entry : 9:00:00 PM March-13-14
+  :
+  :Hub OnDisconnected 972134f1-5c4c-43b3-b853-f9c9ee2f8705
+
+-------------------------------
+
+Log Entry : 9:00:00 PM March-13-14
+  :
+  :Hub OnDisconnected f5bbfacb-25de-4284-99b8-cc6a3a4f96b3
+
+-------------------------------
+
+Log Entry : 9:00:20 PM March-13-14
+  :
+  :Hub OnDisconnected bf9be47f-44fa-45ba-9489-f1f9cab599bc
+
+-------------------------------
+
+Log Entry : 9:03:36 PM March-13-14
+  :
+  :Hub OnDisconnected 4afb7386-deec-4fdd-89f8-280739b256db
+
+-------------------------------
+
+Log Entry : 9:05:17 PM March-13-14
+  :
+  :Hub OnConnected 0014fd56-b9a2-46fe-a6cd-145bb3910fb4
+
+-------------------------------
+
+Log Entry : 9:05:33 PM March-13-14
+  :
+  :Hub OnConnected e62cc75b-bad4-4ba8-aa98-08c10439e23a
+
+-------------------------------
+
+Log Entry : 9:05:49 PM March-13-14
+  :
+  :Hub OnDisconnected 0014fd56-b9a2-46fe-a6cd-145bb3910fb4
+
+-------------------------------
+
+Log Entry : 9:06:29 PM March-13-14
+  :
+  :Hub OnDisconnected e62cc75b-bad4-4ba8-aa98-08c10439e23a
+
+-------------------------------

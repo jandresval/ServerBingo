@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VfpClient</id>
+    <version>0.5.13.6030</version>
+    <authors>Tom Brothers</authors>
+    <owners>Tom Brothers</owners>
+    <projectUrl>http://vfpclient.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Visual FoxPro Client for ADO.Net is simply a wrapper around the System.Data.OleDb classes with the goal of reducing pain points when accessing VFP data from .Net.</description>
+    <summary>Visual FoxPro Client for ADO.Net is simply a wrapper around the System.Data.OleDb classes with the goal of reducing pain points when accessing VFP data from .Net.</summary>
+    <language>en-US</language>
+  </metadata>
+</package>

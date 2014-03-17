@@ -39,6 +39,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="IQToolkit">
+      <HintPath>..\packages\LINQtoVFP.1.17.26.2194\lib\IQToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="IQToolkit.Data">
+      <HintPath>..\packages\LINQtoVFP.1.17.26.2194\lib\IQToolkit.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="IQToolkitContrib">
+      <HintPath>..\packages\LINQtoVFP.1.17.26.2194\lib\IQToolkitContrib.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqToVfp">
+      <HintPath>..\packages\LINQtoVFP.1.17.26.2194\lib\LinqToVfp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.Core">
       <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.0.2\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
     </Reference>
@@ -72,6 +90,7 @@
     <Reference Include="Owin">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web.Cors">
       <HintPath>..\packages\Microsoft.AspNet.Cors.5.0.0\lib\net45\System.Web.Cors.dll</HintPath>
     </Reference>
@@ -92,8 +111,17 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="VfpClient">
+      <HintPath>..\packages\LINQtoVFP.1.17.26.2194\lib\VfpClient.dll</HintPath>
+    </Reference>
+    <Reference Include="VfpEntityFrameworkProvider">
+      <HintPath>..\packages\VFPEntityFrameworkProvider2.2.0.1.6608\lib\net45\VfpEntityFrameworkProvider.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Bingo.dbc" />
+    <Content Include="App_Data\Bingo.DCT" />
+    <Content Include="App_Data\Bingo.DCX" />
     <None Include="Properties\PublishProfiles\OwnServer.pubxml" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="Global.asax" />
@@ -108,21 +136,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BingoHub.cs" />
+    <Compile Include="Config\ConfigManager.cs" />
     <Compile Include="ErrorHandlingPipelineModule.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Mensajes.cs" />
+    <Compile Include="ModelsView\UsuarioConexion.cs" />
+    <Compile Include="Models\Bingobalota.cs" />
+    <Compile Include="Models\Bingodia.cs" />
+    <Compile Include="Models\Bingoganadore.cs" />
+    <Compile Include="Models\Bingoreye.cs" />
+    <Compile Include="Models\BingoServerEntities.cs" />
+    <Compile Include="Models\Bingosoc.cs" />
+    <Compile Include="Models\Bingotbl.cs" />
+    <Compile Include="Models\Bingousuario.cs" />
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
     <Compile Include="IService1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Util\Utils.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.1.0.min.map" />
@@ -149,6 +186,8 @@
           <DevelopmentServerPort>3993</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:8090/ServerBingo</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:8090/ServerBingo</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
