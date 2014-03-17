@@ -11,15 +11,17 @@ namespace ServerBingo.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class Bingousuario
     {
         public Bingousuario()
         {
-            this.Bingoganadores = new HashSet<Bingoganadore>();
-            this.Bingoreyes = new HashSet<Bingoreye>();
+            //this.Bingoganadores = new HashSet<Bingoganadore>();
+            //this.Bingoreyes = new HashSet<Bingoreye>();
         }
     
+        [Key]
         public int Idusuario { get; set; }
         public string Alias { get; set; }
         public string Macadress { get; set; }
@@ -33,8 +35,8 @@ namespace ServerBingo.Models
         public Nullable<double> Gpslongitud { get; set; }
         public byte[] Imagenuser { get; set; }
     
-        public virtual ICollection<Bingoganadore> Bingoganadores { get; set; }
-        public virtual Bingosoc Bingosoc { get; set; }
-        public virtual ICollection<Bingoreye> Bingoreyes { get; set; }
+        //public virtual ICollection<Bingoganadore> Bingoganadores { get; set; }
+        //public virtual Bingosoc Bingosoc { get; set; }
+        //public virtual ICollection<Bingoreye> Bingoreyes { get; set; }
     }
 }

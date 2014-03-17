@@ -81,4 +81,165 @@ SignalR.Transports.LongPollingTransport Error: 0 : CompleteRequest (bf9be47f-44f
 SignalR.Transports.LongPollingTransport Information: 0 : Abort(972134f1-5c4c-43b3-b853-f9c9ee2f8705)
 SignalR.Transports.LongPollingTransport Information: 0 : End(972134f1-5c4c-43b3-b853-f9c9ee2f8705)
 SignalR.Transports.TransportHeartBeat Verbose: 0 : bf9be47f-44fa-45ba-9489-f1f9cab599bc is dead
-SignalR.Transports.
+SignalR.Transports.SignalR.Transports.TransportHeartBeat Information: 0 : Connection 226665e9-6e5f-4939-b37d-01b41ed3b845 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(226665e9-6e5f-4939-b37d-01b41ed3b845)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(226665e9-6e5f-4939-b37d-01b41ed3b845)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(226665e9-6e5f-4939-b37d-01b41ed3b845)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(226665e9-6e5f-4939-b37d-01b41ed3b845)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 226665e9-6e5f-4939-b37d-01b41ed3b845 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 226665e9-6e5f-4939-b37d-01b41ed3b845 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 226665e9-6e5f-4939-b37d-01b41ed3b845 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 226665e9-6e5f-4939-b37d-01b41ed3b845 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 226665e9-6e5f-4939-b37d-01b41ed3b845 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 226665e9-6e5f-4939-b37d-01b41ed3b845 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 226665e9-6e5f-4939-b37d-01b41ed3b845 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 226665e9-6e5f-4939-b37d-01b41ed3b845
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 61078997-c923-4b5c-add2-bfa31792df51 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 61078997-c923-4b5c-add2-bfa31792df51 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 61078997-c923-4b5c-add2-bfa31792df51 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 61078997-c923-4b5c-add2-bfa31792df51 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 61078997-c923-4b5c-add2-bfa31792df51 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 61078997-c923-4b5c-add2-bfa31792df51 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 61078997-c923-4b5c-add2-bfa31792df51 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 61078997-c923-4b5c-add2-bfa31792df51 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 61078997-c923-4b5c-add2-bfa31792df51
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 40973975-d0f3-4ff3-8909-42051317f331 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(40973975-d0f3-4ff3-8909-42051317f331)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(40973975-d0f3-4ff3-8909-42051317f331)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(40973975-d0f3-4ff3-8909-42051317f331)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(40973975-d0f3-4ff3-8909-42051317f331)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(40973975-d0f3-4ff3-8909-42051317f331)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 2c9e4e2a-ac51-48ac-90de-a79bab167fa6 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 40973975-d0f3-4ff3-8909-42051317f331 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2c9e4e2a-ac51-48ac-90de-a79bab167fa6)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 40973975-d0f3-4ff3-8909-42051317f331 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 40973975-d0f3-4ff3-8909-42051317f331 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2c9e4e2a-ac51-48ac-90de-a79bab167fa6)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 40973975-d0f3-4ff3-8909-42051317f331 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 40973975-d0f3-4ff3-8909-42051317f331 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2c9e4e2a-ac51-48ac-90de-a79bab167fa6)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 40973975-d0f3-4ff3-8909-42051317f331 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 40973975-d0f3-4ff3-8909-42051317f331 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 40973975-d0f3-4ff3-8909-42051317f331
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2c9e4e2a-acSignalR.Transports.TransportHeartBeat Information: 0 : Connection b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection dc65b9b7-01c8-484c-ae99-f98e87b234b7 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection b3c23ff2-dde1-42d1-afd8-5bfb0cfb0ade
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : Connection dc65b9b7-01c8-484c-ae99-f98e87b234b7 exists. Closing previous connection.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(dc65b9b7-01c8-484c-ae99-f98e87b234b7)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : dc65b9b7-01c8-484c-ae99-f98e87b234b7 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 9210c4dd-139c-4d84-aaf6-711794b28834 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : dc65b9b7-01c8-484c-ae99-f98e87b234b7 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : dc65b9b7-01c8-484c-ae99-f98e87b234b7 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : dc65b9b7-01c8-484c-ae99-f98e87b234b7 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : dc65b9b7-01c8-484c-ae99-f98e87b234b7 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : dc65b9b7-01c8-484c-ae99-f98e87b234b7 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : dc65b9b7-01c8-484c-ae99-f98e87b234b7 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection dc65b9b7-01c8-484c-ae99-f98e87b234b7
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9210c4dd-139c-4d84-aaf6-711794b28834)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9210c4dd-139c-4d84-aaf6-711794b28834 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9210c4dd-139c-4d84-aaf6-711794b28834 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9210c4dd-139c-4d84-aaf6-711794b28834 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9210c4dd-139c-4d84-aaf6-711794b28834 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9210c4dd-139c-4d84-aaf6-711794b28834 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9210c4dd-139c-4d84-aaf6-711794b28834 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9210c4dd-139c-4d84-aaf6-711794b28834 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 9210c4dd-139c-4d84-aaf6-711794b28834
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 2e2fe3c0-005b-4b02-841c-cabbe00cca3c is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 7b9de4a8-f9ba-4738-982f-6b6aacdf08ac is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(7b9de4a8-f9ba-4738-982f-6b6aacdf08ac)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(7b9de4a8-f9ba-4738-982f-6b6aacdf08ac)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(7b9de4a8-f9ba-4738-982f-6b6aacdf08ac)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(7b9de4a8-f9ba-4738-982f-6b6aacdf08ac)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7b9de4a8-f9ba-4738-982f-6b6aacdf08ac is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7b9de4a8-f9ba-4738-982f-6b6aacdf08ac is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection ecf64a5a-6ddd-49cb-b1d2-2f70629d527e is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(ecf64a5a-6ddd-49cb-b1d2-2f70629d527e)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7b9de4a8-f9ba-4738-982f-6b6aacdf08ac is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7b9de4a8-f9ba-4738-982f-6b6aacdf08ac is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(ecf64a5a-6ddd-49cb-b1d2-2f70629d527e)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7b9de4a8-f9ba-4738-982f-6b6aacdf08ac is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : ecf64a5a-6ddd-49cb-b1d2-2f70629d527e is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7b9de4a8-f9ba-4738-982f-6b6aacdf08ac is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : ecf64a5a-6ddd-49cb-b1d2-2f70629d527e is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7b9de4a8-f9ba-4738-982f-6b6aacdf08ac is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 7b9de4a8-f9ba-4738-982f-6b6aacdf08ac
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 9bbc4c7d-122e-4055-8d0b-fec1af58ed1d is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : ecf64a5a-6ddd-49cb-b1d2-2f70629d527e is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9bbc4c7d-122e-4055-8d0b-fec1af58ed1d)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : ecf64a5a-6ddd-49cb-b1d2-2f70629d527e is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : ecf64a5a-6ddd-49cb-b1d2-2f70629d527e is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(9bbc4c7d-122e-4055-8d0b-fec1af58ed1d)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2e2fe3c0-005b-4b02-841c-cabbe00cca3c)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : ecf64a5a-6ddd-49cb-b1d2-2f70629d527e is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 9bbc4c7d-122e-4055-8d0b-fec1af58ed1d is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : ecf64a5a-6ddd-49cb-b1d2-2f70629d527e is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection ecf64a5a-6ddd-49cb-b1d2-2f70629d527e
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 82d32044-db7d-4339-8e5e-7810e834a882 is New.

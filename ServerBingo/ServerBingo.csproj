@@ -15,7 +15,7 @@
     <AssemblyName>ServerBingo</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -136,30 +136,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BingoHub.cs" />
-    <Compile Include="Config\ConfigManager.cs" />
     <Compile Include="ErrorHandlingPipelineModule.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Mensajes.cs" />
-    <Compile Include="ModelsView\UsuarioConexion.cs" />
-    <Compile Include="Models\Bingobalota.cs" />
-    <Compile Include="Models\Bingodia.cs" />
-    <Compile Include="Models\Bingoganadore.cs" />
-    <Compile Include="Models\Bingoreye.cs" />
-    <Compile Include="Models\BingoServerEntities.cs" />
-    <Compile Include="Models\Bingosoc.cs" />
-    <Compile Include="Models\Bingotbl.cs" />
-    <Compile Include="Models\Bingousuario.cs" />
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
     <Compile Include="IService1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="Util\Utils.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Util\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.1.0.min.map" />
@@ -169,6 +160,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServerBingoLibrary\ServerBingoLibrary.csproj">
+      <Project>{07537a1e-74cc-446d-8015-484390b85881}</Project>
+      <Name>ServerBingoLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServerBingoModel\ServerBingoModel.csproj">
+      <Project>{91a5652a-4274-43e1-a8e6-448830019561}</Project>
+      <Name>ServerBingoModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -185,9 +186,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>3993</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:8090/ServerBingo</IISUrl>
-          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://localhost:8090/ServerBingo</IISAppRootUrl>
+          <IISUrl>http://localhost:8090/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

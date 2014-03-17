@@ -11,6 +11,7 @@ namespace ServerBingo.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class Bingotbl
     {
@@ -21,6 +22,7 @@ namespace ServerBingo.Models
             this.Bingoreyes = new HashSet<Bingoreye>();
         }
     
+        [Key]
         public string Tblnro { get; set; }
         public string Tblb1 { get; set; }
         public string Tblb2 { get; set; }
