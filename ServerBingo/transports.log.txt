@@ -242,4 +242,248 @@ SignalR.Transports.TransportHeartBeat Verbose: 0 : ecf64a5a-6ddd-49cb-b1d2-2f706
 SignalR.Transports.TransportHeartBeat Verbose: 0 : 9bbc4c7d-122e-4055-8d0b-fec1af58ed1d is dead
 SignalR.Transports.TransportHeartBeat Verbose: 0 : ecf64a5a-6ddd-49cb-b1d2-2f70629d527e is dead
 SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection ecf64a5a-6ddd-49cb-b1d2-2f70629d527e
-SignalR.Transports.TransportHeartBeat Information: 0 : Connection 82d32044-db7d-4339-8e5e-7810e834a882 is New.
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 82d32044-db7d-4339-8e5e-7810e834a882 is New.SignalR.Transports.TransportHeartBeat Information: 0 : Connection e8a40a8c-0176-4f23-9d8f-36b763b44420 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(e8a40a8c-0176-4f23-9d8f-36b763b44420)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 5c5738e2-20ed-4743-90d4-ff2605f5515b is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : e8a40a8c-0176-4f23-9d8f-36b763b44420 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : e8a40a8c-0176-4f23-9d8f-36b763b44420 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : e8a40a8c-0176-4f23-9d8f-36b763b44420 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : e8a40a8c-0176-4f23-9d8f-36b763b44420 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : e8a40a8c-0176-4f23-9d8f-36b763b44420 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : e8a40a8c-0176-4f23-9d8f-36b763b44420 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : e8a40a8c-0176-4f23-9d8f-36b763b44420 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection e8a40a8c-0176-4f23-9d8f-36b763b44420
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4743-90d4-ff2605f5515b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(5c5738e2-20ed-4SignalR.Transports.TransportHeartBeat Information: 0 : Connection a0448d66-bdab-4d45-933c-88c81fbfc7f2 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(a0448d66-bdab-4d45-933c-88c81fbfc7f2)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(a0448d66-bdab-4d45-933c-88c81fbfc7f2)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : a0448d66-bdab-4d45-933c-88c81fbfc7f2 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : a0448d66-bdab-4d45-933c-88c81fbfc7f2 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : a0448d66-bdab-4d45-933c-88c81fbfc7f2 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : a0448d66-bdab-4d45-933c-88c81fbfc7f2 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : a0448d66-bdab-4d45-933c-88c81fbfc7f2 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : a0448d66-bdab-4d45-933c-88c81fbfc7f2 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 30d06ca3-6332-4d28-b1e0-b1d31a7d324b is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(30d06ca3-6332-4d28-b1e0-b1d31a7d324b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : a0448d66-bdab-4d45-933c-88c81fbfc7f2 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection a0448d66-bdab-4d45-933c-88c81fbfc7f2
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(30d06ca3-6332-4d28-b1e0-b1d31a7d324b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(30d06ca3-6332-4d28-b1e0-b1d31a7d324b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(30d06ca3-6332-4d28-b1e0-b1d31a7d324b)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(30d06ca3-6332-4d28-b1e0-b1d31a7d324b)
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 47a056c4-2fd8-42b6-b458-d1ef98e5a5ad is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 30d06ca3-6332-4d28-b1e0-b1d31a7d324b is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(47a056c4-2fd8-42b6-b458-d1ef98e5a5ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 30d06ca3-6332-4d28-b1e0-b1d31a7d324b is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 30d06ca3-6332-4d28-b1e0-b1d31a7d324b is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(47a056c4-2fd8-42b6-b458-d1ef98e5a5ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 30d06ca3-6332-4d28-b1e0-b1d31a7d324b is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 03eaa06b-e9e8-4110-9f14-d0e691acaa12 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(03eaa06b-e9e8-4110-9f14-d0e691acaa12)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 30d06ca3-6332-4d28-b1e0-b1d31a7d324b is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 47a056c4-2fd8-42b6-b458-d1ef98e5a5ad is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 30d06ca3-6332-4d28-b1e0-b1d31a7d324b is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : Timer handler took longer than current interval
+SignalR.Transports.TransportHeartBeat Verbose: 0 : Connection 03eaa06b-e9e8-4110-9f14-d0e691acaa12 exists. Closing previous connection.
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 30d06ca3-6332-4d28-b1e0-b1d31a7d324b
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 47a056c4-2fd8-42b6-b458-d1ef98e5a5ad is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 47a056c4-2fd8-42b6-b458-d1ef98e5a5ad
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(03eaa06b-e9e8-4110-9f14-d0e691acaa12)
+SignalR.Transports.TransportHeartBeat Error: 0 : Failed to send keep alive: System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] dSignalR.Transports.TransportHeartBeat Information: 0 : Connection 7e00a53f-2732-4bd1-a256-5b1895e4fcf6 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(7e00a53f-2732-4bd1-a256-5b1895e4fcf6)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7e00a53f-2732-4bd1-a256-5b1895e4fcf6 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 554a8466-7efa-4361-b2ba-71b2bf958415 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7e00a53f-2732-4bd1-a256-5b1895e4fcf6 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7e00a53f-2732-4bd1-a256-5b1895e4fcf6 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(554a8466-7efa-4361-b2ba-71b2bf958415)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7e00a53f-2732-4bd1-a256-5b1895e4fcf6 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 03063af3-7b12-4727-8050-37f0d6d08498 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7e00a53f-2732-4bd1-a256-5b1895e4fcf6 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(03063af3-7b12-4727-8050-37f0d6d08498)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(554a8466-7efa-4361-b2ba-71b2bf958415)
+SignalR.Transports.TransportHeartBeat Error: 0 : Failed to send keep alive: System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Microsoft.Owin.Host.SystemWeb.CallStreams.DelegatingStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Microsoft.Owin.Host.SystemWeb.CallStreams.OutputStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Microsoft.AspNet.SignalR.Owin.ServerResponse.Write(ArraySegment`1 data)
+   at Microsoft.AspNet.SignalR.Infrastructure.BinaryTextWriter.<.ctor>b__4(ArraySegment`1 data, Object state)
+   at Microsoft.AspNet.SignalR.Infrastructure.BufferTextWriter.ChunkedWriter.Flush(Byte[] byteBuffer, Boolean flushEncoder)
+   at Microsoft.AspNet.SignalR.Infrastructure.BufferTextWriter.ChunkedWriter.Flush(Boolean flushEncoder)
+   at Microsoft.AspNet.SignalR.Infrastructure.BufferTextWriter.ChunkedWriter.Flush()
+   at Microsoft.AspNet.SignalR.Infrastructure.BufferTextWriter.Flush()
+   at Microsoft.AspNet.SignalR.Transports.ServerSentEventsTransport.PerformKeepAlive(Object state)
+   at Microsoft.AspNet.SignalR.Transports.ServerSentEventsTransport.<KeepAlive>b__0(Object state)
+   at Microsoft.AspNet.SignalR.Infrastructure.TaskQueue.<Enqueue>b__1(Func`2 next, Object nextState)
+   at Microsoft.AspNet.SignalR.TaskAsyncHelper.FromMethod[T1,T2](Func`3 func, T1 arg1, T2 arg2)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 7e00a53f-2732-4bd1-a256-5b1895e4fcf6 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 7e00a53f-2732-4bd1-a256-5b1895e4fcf6
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 554a8466-7efa-4361-b2ba-71b2bf958415 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(03063af3-7b12-4727-8050-37f0d6d08498)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 554a8466-7efa-4361-b2ba-71b2bf958415 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 554a8466-7efa-4361-b2ba-71b2bf958415 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(03063af3-7b12-4727-8050-37f0d6d08498)
+SignalR.Transports.TransportHeartBeat Error: 0 : Failed to send keep alive: System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Microsoft.Owin.Host.SystemWeb.CallStreams.DelegatingStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Microsoft.Owin.Host.SystemWeb.CallStreams.OutputStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Microsoft.AspNet.SignalR.Owin.ServerResponse.Write(ArraySegment`1 data)
+   at Microsoft.AspNet.SignalR.Infrastructure.BinaryTextWriter.<.ctor>b__4(ArraySegment`1 data, Object state)
+   at Microsoft.AspNet.SignalR.Infrastructure.BufferTextWriter.ChunkedWriter.Flush(Byte[] byteBuffer, Boolean flushEncoder)
+   at Microsoft.AspNet.SignalR.Infrastructure.BufferTextWriter.ChunkedWriter.Flush(Boolean flushEncoder)
+   at Microsoft.AspNet.SignalR.Infrastructure.BufferTextWriter.ChunkedWriter.Flush()
+   at Microsoft.AspNet.SignalR.Infrastructure.BufferTextWriter.Flush()
+   at Microsoft.AspNet.SignalR.Transports.ServerSentEventsTransport.PerformKeepAlive(Object state)
+   at Microsoft.AspNet.SignalR.Transports.ServerSentEventsTransport.<KeepAlive>b__0(Object state)
+   at Microsoft.AspNet.SignalR.Infrastructure.TaskQueue.<Enqueue>b__1(Func`2 next, Object nextState)
+   at Microsoft.AspNet.SignalR.TaskAsyncHelper.FromMethod[T1,T2](Func`3 func, T1 arg1, T2 arg2)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 554a8466-7efa-4361-b2ba-71b2bf958415 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 554a8466-7efa-4361-b2ba-71b2bf958415
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 2805c6b0-b0ea-4b93-b5f1-b15b0ba51199 is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 03063af3-7b12-4727-8050-37f0d6d08498 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2805c6b0-b0ea-4b93-b5f1-b15b0ba51199)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 03063af3-7b12-4727-8050-37f0d6d08498 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 03063af3-7b12-4727-8050-37f0d6d08498 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(2805c6b0-b0ea-4b93-b5f1-b15b0ba51199)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 03063af3-7b12-4727-8050-37f0d6d08498 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 03063af3-7b12-4727-8050-37f0d6d08498 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 2805c6b0-b0ea-4b93-b5f1-b15b0ba51199 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 03063af3-7b12-4727-8050-37f0d6d08498 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 03063af3-7b12-4727-8050-37f0d6d08498
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 2805c6b0-b0ea-4b93-b5f1-b15b0ba51199 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 2805c6b0-b0ea-4b93-b5f1-b15b0ba51199 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection 8fa0cab2-31c6-46db-9d7f-a982d39c76ad is New.
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 2805c6b0-b0ea-4b93-b5f1-b15b0ba51199 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 2805c6b0-b0ea-4b93-b5f1-b15b0ba51199 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 2805c6b0-b0ea-4b93-b5f1-b15b0ba51199 is dead
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : 2805c6b0-b0ea-4b93-b5f1-b15b0ba51199 is dead
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 2805c6b0-b0ea-4b93-b5f1-b15b0ba51199
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-46db-9d7f-a982d39c76ad)
+SignalR.Transports.TransportHeartBeat Verbose: 0 : KeepAlive(8fa0cab2-31c6-

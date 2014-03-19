@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerBingo", "ServerBingo\ServerBingo.csproj", "{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07537A1E-74CC-446D-8015-484390B85881} = {07537A1E-74CC-446D-8015-484390B85881}
+		{91A5652A-4274-43E1-A8E6-448830019561} = {91A5652A-4274-43E1-A8E6-448830019561}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteServerBingo", "ClienteServerBingo\ClienteServerBingo.csproj", "{6D6C3298-F333-40D4-8375-3A1FC8A94FE7}"
 EndProject
@@ -14,6 +20,7 @@ Global
 		CD_ROM|Any CPU = CD_ROM|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		DVD-5|Any CPU = DVD-5|Any CPU
+		Ienovo|Any CPU = Ienovo|Any CPU
 		Release|Any CPU = Release|Any CPU
 		SingleImage|Any CPU = SingleImage|Any CPU
 	EndGlobalSection
@@ -24,6 +31,8 @@ Global
 		{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}.Ienovo|Any CPU.ActiveCfg = Ienovo|Any CPU
+		{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}.Ienovo|Any CPU.Build.0 = Ienovo|Any CPU
 		{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,6 +43,8 @@ Global
 		{6D6C3298-F333-40D4-8375-3A1FC8A94FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D6C3298-F333-40D4-8375-3A1FC8A94FE7}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
 		{6D6C3298-F333-40D4-8375-3A1FC8A94FE7}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{6D6C3298-F333-40D4-8375-3A1FC8A94FE7}.Ienovo|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6C3298-F333-40D4-8375-3A1FC8A94FE7}.Ienovo|Any CPU.Build.0 = Debug|Any CPU
 		{6D6C3298-F333-40D4-8375-3A1FC8A94FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D6C3298-F333-40D4-8375-3A1FC8A94FE7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6D6C3298-F333-40D4-8375-3A1FC8A94FE7}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,6 +55,8 @@ Global
 		{07537A1E-74CC-446D-8015-484390B85881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07537A1E-74CC-446D-8015-484390B85881}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
 		{07537A1E-74CC-446D-8015-484390B85881}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{07537A1E-74CC-446D-8015-484390B85881}.Ienovo|Any CPU.ActiveCfg = Debug|Any CPU
+		{07537A1E-74CC-446D-8015-484390B85881}.Ienovo|Any CPU.Build.0 = Debug|Any CPU
 		{07537A1E-74CC-446D-8015-484390B85881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07537A1E-74CC-446D-8015-484390B85881}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07537A1E-74CC-446D-8015-484390B85881}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,6 +67,8 @@ Global
 		{91A5652A-4274-43E1-A8E6-448830019561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91A5652A-4274-43E1-A8E6-448830019561}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
 		{91A5652A-4274-43E1-A8E6-448830019561}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{91A5652A-4274-43E1-A8E6-448830019561}.Ienovo|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A5652A-4274-43E1-A8E6-448830019561}.Ienovo|Any CPU.Build.0 = Debug|Any CPU
 		{91A5652A-4274-43E1-A8E6-448830019561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91A5652A-4274-43E1-A8E6-448830019561}.Release|Any CPU.Build.0 = Release|Any CPU
 		{91A5652A-4274-43E1-A8E6-448830019561}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU

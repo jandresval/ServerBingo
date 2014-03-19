@@ -23,6 +23,11 @@ namespace ServerBingo.Config
             get { return GetVariableConfiguration("validateMac"); } 
         }
 
+        public static string SocSucursal
+        {
+            get { return GetVariableConfiguration("SocSucursal"); }
+        }
+
         #endregion
 
         #region Mensajes

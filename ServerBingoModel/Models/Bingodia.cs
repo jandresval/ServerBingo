@@ -11,9 +11,12 @@ namespace ServerBingo.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class Bingodia
     {
+        [Key]
+        public string bingodiaid { get; set; }
         public System.DateTime Jgofch { get; set; }
         public string Jgonro { get; set; }
         public string Jgocod { get; set; }

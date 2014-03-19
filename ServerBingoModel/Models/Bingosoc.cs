@@ -11,9 +11,11 @@ namespace ServerBingo.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class Bingosoc
     {
+
         public string Socsucursal { get; set; }
         public string Soccarne { get; set; }
         public string Socnom { get; set; }
@@ -27,6 +29,7 @@ namespace ServerBingo.Models
         public string Soctel { get; set; }
         public string Socbarrio { get; set; }
         public decimal Socpuntos { get; set; }
+        [Key]
         public int Idusuario { get; set; }
     
         public virtual Bingousuario Bingousuario { get; set; }

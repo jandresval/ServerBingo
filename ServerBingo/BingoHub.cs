@@ -8,6 +8,7 @@ using ServerBingo.Config;
 using ServerBingo.Util;
 using ServerBingo.ModelsView;
 using ServerBingo.Models;
+using System.Data.Entity;
 
 namespace ServerBingo
 {
@@ -51,6 +52,56 @@ namespace ServerBingo
                 }
                 UserHandler.Connections.Add(usuarioConexion.Alias, usuarioConexion);
             }
+
+            BingoServerEntities db = new BingoServerEntities();
+
+            try
+            {
+                
+
+                Bingousuario bingoUsuario = (from n in db.Bingousuarios
+                                             where n.Alias == usuarioConexion.Alias 
+                                             select n).FirstOrDefault();
+
+                if (bingoUsuario == null)
+                {
+                    bingoUsuario = new Bingousuario
+                    {
+                        Alias = usuarioConexion.Alias,
+                        Ip = usuarioConexion.Ip,
+                        Macadress = usuarioConexion.Macaddress,
+                        Gpslatitud = usuarioConexion.Gpslatitud,
+                        Gpslongitud = usuarioConexion.Gpslongitud,
+                        Imagenuser = usuarioConexion.Imagenuser,
+                        Ultimafechaconexion = DateTime.Now,
+                        Ultimafechadejuego = DateTime.Now,
+                        Socsucursal = ConfigManager.SocSucursal,
+                        Activo = false
+                    };
+
+                    db.Bingousuarios.Add(bingoUsuario);
+
+                    db.SaveChanges();
+
+                }
+                else
+                {
+                    bingoUsuario.Ultimafechaconexion = DateTime.Now;
+                    bingoUsuario.Ultimafechadejuego = DateTime.Now;
+                    db.Bingousuarios.Attach(bingoUsuario);
+                    db.Entry(bingoUsuario).State = EntityState.Modified;
+                    db.SaveChanges();
+                }
+            }
+            catch
+            {
+                
+            }
+            finally
+            {
+                db.Dispose();
+            }
+
         }
 
         public void SendUsuario(string name)
@@ -61,26 +112,51 @@ namespace ServerBingo
             if (UserHandler.Connections.TryGetValue(name, out usuConection))
             {
                 BingoServerEntities db = new BingoServerEntities();
+                try
+                {
+                    if (!db.Database.Exists())
+                    {
+                        return;
+                    }
 
-                bingoUsuario = (from n in db.Bingousuarios
-                                             where n.Alias == name
-                                             select n).First();
+                    bingoUsuario = (from n in db.Bingousuarios
+                                    where n.Alias == name &&
+                                    n.Activo == true
+                                    select n).FirstOrDefault();
 
-                Clients.Client(usuConection.conectionId).DevolverInfoUsuario(bingoUsuario);
+                    Clients.Client(usuConection.conectionId).DevolverInfoUsuario(bingoUsuario);
+                }
+                finally
+                {
+                    db.Dispose();
+                }
+
             }
-            
+
         }
 
-        public IEnumerable<Bingousuario> DevolverUsuario(string name)
+        public Bingousuario DevolverUsuario(string name)
         {
-
             BingoServerEntities db = new BingoServerEntities();
+            try
+            {
+                if (!db.Database.Exists())
+                {
+                    return null;
+                }
 
-            var bingoUsuario = from n in db.Bingousuarios
-                            where n.Alias == name
-                            select n;
+                Bingousuario bingoUsuario = (from n in db.Bingousuarios
+                                             where n.Alias == name &&
+                                             n.Activo == true
+                                             select n).FirstOrDefault();
 
-            return bingoUsuario;
+                return bingoUsuario;
+            }
+            finally
+            {
+                db.Dispose();
+            }
+
         }
 
         public override Task OnConnected()
