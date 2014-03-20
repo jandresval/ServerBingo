@@ -15,6 +15,20 @@ namespace ServerBingo
     public static class UserHandler
     {
         public static Dictionary<string, UsuarioConexion> Connections = new Dictionary<string, UsuarioConexion>();
+
+        public static UsuarioConexion RetornarConection(string name)
+        {
+            UsuarioConexion usuConection = new UsuarioConexion();
+            if (UserHandler.Connections.TryGetValue(name, out usuConection))
+            {
+                return usuConection;
+            }
+            else
+            {
+                return usuConection;
+            }
+
+        }
     }
 
 
@@ -34,9 +48,6 @@ namespace ServerBingo
         public void SendtoUser(string name, string message)
         {
             Mensajes.Show(name + " : " + message);
-            //string userId = "";
-            //if (UserHandler.ConnectedIds.TryGetValue(name, out userId))
-            //Clients.User(userId).send(message);
             Clients.All.Send(name, message);
         }
 
@@ -97,10 +108,6 @@ namespace ServerBingo
             {
                 
             }
-            finally
-            {
-                db.Dispose();
-            }
 
         }
 
@@ -126,11 +133,22 @@ namespace ServerBingo
 
                     Clients.Client(usuConection.conectionId).DevolverInfoUsuario(bingoUsuario);
                 }
-                finally
+                catch
                 {
-                    db.Dispose();
+
                 }
 
+            }
+
+        }
+
+        public void DesconectarUsuario(string name)
+        {
+            UsuarioConexion usuConexion = UserHandler.RetornarConection(name);
+
+            if (!usuConexion.conectionId.Equals(""))
+            {
+                Clients.Client(usuConexion.conectionId).Desconectar();
             }
 
         }
@@ -152,9 +170,9 @@ namespace ServerBingo
 
                 return bingoUsuario;
             }
-            finally
+            catch
             {
-                db.Dispose();
+                throw new HubException("Error al devolver usuario.");
             }
 
         }
