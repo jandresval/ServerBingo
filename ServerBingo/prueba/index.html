@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatibility" content="IE=Edge" />
+    <title>Load Generator</title>
+
+
+
+
+</head>
+<body>
+
+<script src="jquery-1.9.0.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.2.0.js" type="text/javascript"></script>
+<script src="jquery-ui-1.9.0.js" type="text/javascript"></script>
+<script src="jquery.signalR.js" type="text/javascript"></script>
+<script src="json2.js" type="text/javascript"></script>
+<script src="http://192.168.0.110:8090/signalr/hubs" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+var chat;
+
+
+$(function () {
+            //Set the hubs URL for the connection
+            $.connection.hub.url = 'http://192.168.0.110:8090/signalr';
+
+            // Declare a proxy to reference the hub.
+            chat = $.connection.bingoHub;
+
+            $.connection.hub.error(function (error) {
+                AndroidFunction.showToast(error);
+            });
+
+        });
+
+function Conectar(usuario, ip, macAddress) { 
+    $.connection.hub.start({ transport: 'longPolling' }).done(function () {
+              var objetoConexion = {};
+              objetoConexion["Alias"] = usuario;
+              objetoConexion["Macadress"] = macAddress;
+              objetoConexion["Ip"] = ip;
+              objetoConexion["Gpslatitud"] = 0;
+              objetoConexion["Gpslongitud"] = 0;
+              var stringConexion = JSON.stringify(objetoConexion);
+              $.connection.bingoHub.server.conectarUsuarioJSON(stringConexion)
+                  .done(function () {
+                      $.connection.bingoHub.server.devolverUsuarioJSON(usuario)
+                            .done(function (bingousuario) {
+                                AndroidFunction.cargarBingoUsuario(bingousuario);
+                            })
+                            .fail(function (error) {
+                                AndroidFunction.showToast(error);
+                            });
+                  })
+                  .fail(function (error) {
+                      AndroidFunction.showToast(error);
+                  });
+             
+             AndroidFunction.showToast("Conection: " + $.connection.hub.id);
+
+          })
+          .fail(function() {
+            AndroidFunction.showToast("Error.");
+          });
+
+
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

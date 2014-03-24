@@ -17,26 +17,31 @@ namespace ServerBingo.Models
     {
         public Bingousuario()
         {
-            this.Bingoganadores = new HashSet<Bingoganadore>();
-            this.Bingoreyes = new HashSet<Bingoreye>();
+            //this.Bingoganadores = new HashSet<Bingoganadore>();
+            //this.Bingoreyes = new HashSet<Bingoreye>();
         }
     
         [Key]
         public int Idusuario { get; set; }
+        
         public string Alias { get; set; }
+        
         public string Macadress { get; set; }
+        
         public string Ip { get; set; }
         public System.DateTime Ultimafechaconexion { get; set; }
         public System.DateTime Ultimafechadejuego { get; set; }
         public decimal Saldoactual { get; set; }
         public string Socsucursal { get; set; }
+        
         public Nullable<double> Gpslatitud { get; set; }
+        
         public Nullable<double> Gpslongitud { get; set; }
         public byte[] Imagenuser { get; set; }
         public bool Activo { get; set; }
     
-        public virtual ICollection<Bingoganadore> Bingoganadores { get; set; }
+        //public virtual ICollection<Bingoganadore> Bingoganadores { get; set; }
         //public virtual Bingosoc Bingosoc { get; set; }
-        public virtual ICollection<Bingoreye> Bingoreyes { get; set; }
+        //public virtual ICollection<Bingoreye> Bingoreyes { get; set; }
     }
 }

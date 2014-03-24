@@ -9,6 +9,7 @@ using ServerBingo.Util;
 using ServerBingo.ModelsView;
 using ServerBingo.Models;
 using System.Data.Entity;
+using Newtonsoft.Json;
 
 namespace ServerBingo
 {
@@ -39,19 +40,16 @@ namespace ServerBingo
             Clients.All.hello();
         }
 
-        public void Send(string name, string message)
+
+        public void ConectarUsuarioJSON(string objetoConexion)
         {
-            Mensajes.Show(name + " : " + message);
-            Clients.All.Send(name, message);
+            UsuarioConexion usuarioConexion = JsonConvert.DeserializeObject<UsuarioConexion>(objetoConexion);
+            
+            ConectarUsuario(usuarioConexion);
+
         }
 
-        public void SendtoUser(string name, string message)
-        {
-            Mensajes.Show(name + " : " + message);
-            Clients.All.Send(name, message);
-        }
-
-        public void ConectarUsurio(UsuarioConexion usuarioConexion)
+        public void ConectarUsuario(UsuarioConexion usuarioConexion)
         {
             lock (UserHandler.Connections)
             {
@@ -150,6 +148,19 @@ namespace ServerBingo
             {
                 Clients.Client(usuConexion.conectionId).Desconectar();
             }
+
+        }
+
+
+        public string DevolverUsuarioJSON(string name)
+        {
+            Bingousuario bingoUsuairo = DevolverUsuario(name);
+            if (bingoUsuairo == null)
+            {
+                bingoUsuairo = new Bingousuario();
+            }
+
+            return JsonConvert.SerializeObject(bingoUsuairo);
 
         }
 
