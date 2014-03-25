@@ -144,8 +144,15 @@ namespace ServerBingo
         {
             UsuarioConexion usuConexion = UserHandler.RetornarConection(name);
 
-            if (!usuConexion.conectionId.Equals(""))
+            if (!(usuConexion == null) && !usuConexion.conectionId.Equals(""))
             {
+                lock (UserHandler.Connections)
+                {
+                    if (UserHandler.Connections.ContainsKey(name))
+                    {
+                        UserHandler.Connections.Remove(name);
+                    }
+                }
                 Clients.Client(usuConexion.conectionId).Desconectar();
             }
 
