@@ -10,64 +10,74 @@
 </head>
 <body>
 
-<script src="jquery-1.9.0.js" type="text/javascript"></script>
-<script src="jquery.mobile-1.2.0.js" type="text/javascript"></script>
-<script src="jquery-ui-1.9.0.js" type="text/javascript"></script>
-<script src="jquery.signalR.js" type="text/javascript"></script>
+<script src="jquery-1.9.0.min.js" type="text/javascript"></script>
+<script src="jquery.signalR.min.js" type="text/javascript"></script>
 <script src="json2.js" type="text/javascript"></script>
 <script src="http://192.168.0.110:8090/signalr/hubs" type="text/javascript"></script>
 
 <script type="text/javascript">
 
-var chat;
+    var globalUsuario;
 
 
 $(function () {
             //Set the hubs URL for the connection
             $.connection.hub.url = 'http://192.168.0.110:8090/signalr';
 
-            // Declare a proxy to reference the hub.
-            chat = $.connection.bingoHub;
 
-            $.connection.hub.error(function (error) {
+});
+
+
+
+
+function Conectar(usuario, ip, macAddress) {
+    globalUsuario = usuario;
+    //$.connection.hub.logging = true;
+
+    $.connection.bingoHub.client.desconectar = function () {
+            $.connection.hub.stop();
+            AndroidFunction.DesConectado();
+    };
+
+    $.connection.hub.start({ transport: 'longPolling' }).done(function () {
+        var objetoConexion = {};
+        objetoConexion["Alias"] = usuario;
+        objetoConexion["Macadress"] = macAddress;
+        objetoConexion["Ip"] = ip;
+        objetoConexion["Gpslatitud"] = 0;
+        objetoConexion["Gpslongitud"] = 0;
+        var stringConexion = JSON.stringify(objetoConexion);
+        $.connection.bingoHub.server.conectarUsuarioJSON(stringConexion)
+            .done(function () {
+                $.connection.bingoHub.server.devolverUsuarioJSON(usuario)
+                      .done(function (bingousuario) {
+                          AndroidFunction.cargarBingoUsuario(bingousuario);
+                          AndroidFunction.Conectado();
+                      })
+                      .fail(function (error) {
+                          AndroidFunction.DesConectado();
+                      });
+            })
+            .fail(function (error) {
                 AndroidFunction.showToast(error);
             });
-
-        });
-
-function Conectar(usuario, ip, macAddress) { 
-    $.connection.hub.start({ transport: 'longPolling' }).done(function () {
-              var objetoConexion = {};
-              objetoConexion["Alias"] = usuario;
-              objetoConexion["Macadress"] = macAddress;
-              objetoConexion["Ip"] = ip;
-              objetoConexion["Gpslatitud"] = 0;
-              objetoConexion["Gpslongitud"] = 0;
-              var stringConexion = JSON.stringify(objetoConexion);
-              $.connection.bingoHub.server.conectarUsuarioJSON(stringConexion)
-                  .done(function () {
-                      $.connection.bingoHub.server.devolverUsuarioJSON(usuario)
-                            .done(function (bingousuario) {
-                                AndroidFunction.cargarBingoUsuario(bingousuario);
-                            })
-                            .fail(function (error) {
-                                AndroidFunction.showToast(error);
-                            });
-                  })
-                  .fail(function (error) {
-                      AndroidFunction.showToast(error);
-                  });
-             
-             AndroidFunction.showToast("Conection: " + $.connection.hub.id);
-
-          })
-          .fail(function() {
-            AndroidFunction.showToast("Error.");
+    })
+          .fail(function () {
+              AndroidFunction.showToast("Error.");
           });
 
+    
+
+    $.connection.hub.error(function (error) {
+        AndroidFunction.showToast(error);
+    });
 
 
-        }
+}
+
+function Desconectaruno() {
+    AndroidFunction.showToast("Desconectar.");
+}
 
 
 

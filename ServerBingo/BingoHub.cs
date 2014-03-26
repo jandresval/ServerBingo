@@ -13,32 +13,10 @@ using Newtonsoft.Json;
 
 namespace ServerBingo
 {
-    public static class UserHandler
-    {
-        public static Dictionary<string, UsuarioConexion> Connections = new Dictionary<string, UsuarioConexion>();
-
-        public static UsuarioConexion RetornarConection(string name)
-        {
-            UsuarioConexion usuConection = new UsuarioConexion();
-            if (UserHandler.Connections.TryGetValue(name, out usuConection))
-            {
-                return usuConection;
-            }
-            else
-            {
-                return usuConection;
-            }
-
-        }
-    }
-
+    
 
     public class BingoHub : Hub
     {
-        public void Hello()
-        {
-            Clients.All.hello();
-        }
 
 
         public void ConectarUsuarioJSON(string objetoConexion)
@@ -55,7 +33,11 @@ namespace ServerBingo
             {
                 usuarioConexion.conectionId = Context.ConnectionId;
 
-                if (UserHandler.Connections.ContainsKey(usuarioConexion.Alias))
+                if (UserHandler.Connections.ContainsKey(usuarioConexion.Alias) && !UserHandler.ValidarMac(usuarioConexion))
+                {
+                    throw new HubException("El usuario ya esta conectado.");
+                }
+                else
                 {
                     UserHandler.Connections.Remove(usuarioConexion.Alias);
                 }
@@ -204,6 +186,7 @@ namespace ServerBingo
 
         public override Task OnDisconnected()
         {
+            UserHandler.RemoveConectionWithId(Context.ConnectionId);
             Mensajes.Show("Hub OnDisconnected " + Context.ConnectionId + "\n");
             return base.OnDisconnected();
         }
