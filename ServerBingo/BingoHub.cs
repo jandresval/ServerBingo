@@ -10,6 +10,7 @@ using ServerBingo.ModelsView;
 using ServerBingo.Models;
 using System.Data.Entity;
 using Newtonsoft.Json;
+using System.Dynamic;
 
 namespace ServerBingo
 {
@@ -18,6 +19,41 @@ namespace ServerBingo
     public class BingoHub : Hub
     {
 
+        #region funcionesServidor
+
+        public void DesconectarUsuario(string name)
+        {
+            UsuarioConexion usuConexion = UserHandler.RetornarConection(name);
+
+            if (!(usuConexion == null) && !usuConexion.conectionId.Equals(""))
+            {
+                lock (UserHandler.Connections)
+                {
+                    if (UserHandler.Connections.ContainsKey(name))
+                    {
+                        UserHandler.Connections.Remove(name);
+                    }
+                }
+                Clients.Client(usuConexion.conectionId).Desconectar();
+            }
+
+        }
+
+        public string ListadoUsuarios()
+        {
+            List<string> listadoUsuarios = UserHandler.ListadodeUsuarios();
+
+            return JsonConvert.SerializeObject(listadoUsuarios);
+        }
+
+        public void IniciarJuego()
+        {
+            Clients.All.IniciarJuego();
+        }
+
+        #endregion
+
+        #region funcionesCliente
 
         public void ConectarUsuarioJSON(string objetoConexion)
         {
@@ -111,7 +147,12 @@ namespace ServerBingo
                                     n.Activo == true
                                     select n).FirstOrDefault();
 
-                    Clients.Client(usuConection.conectionId).DevolverInfoUsuario(bingoUsuario);
+                    if (bingoUsuario == null)
+                        bingoUsuario = new Bingousuario();
+
+                    string jsonBingoUsuario = JsonConvert.SerializeObject(bingoUsuario);
+
+                    Clients.Client(usuConection.conectionId).DevolverInfoUsuario(jsonBingoUsuario);
                 }
                 catch
                 {
@@ -121,25 +162,6 @@ namespace ServerBingo
             }
 
         }
-
-        public void DesconectarUsuario(string name)
-        {
-            UsuarioConexion usuConexion = UserHandler.RetornarConection(name);
-
-            if (!(usuConexion == null) && !usuConexion.conectionId.Equals(""))
-            {
-                lock (UserHandler.Connections)
-                {
-                    if (UserHandler.Connections.ContainsKey(name))
-                    {
-                        UserHandler.Connections.Remove(name);
-                    }
-                }
-                Clients.Client(usuConexion.conectionId).Desconectar();
-            }
-
-        }
-
 
         public string DevolverUsuarioJSON(string name)
         {
@@ -177,6 +199,10 @@ namespace ServerBingo
 
         }
 
+        #endregion
+
+        #region funcionesServidor
+
         public override Task OnConnected()
         {
 
@@ -197,5 +223,6 @@ namespace ServerBingo
             return base.OnReconnected();
         }
 
+        #endregion
     }
 }

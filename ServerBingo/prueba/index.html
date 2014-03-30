@@ -27,7 +27,9 @@ $(function () {
 
 });
 
-
+function DesconectarUsu() {
+    $.connection.hub.stop();
+}
 
 
 function Conectar(usuario, ip, macAddress) {
@@ -35,8 +37,16 @@ function Conectar(usuario, ip, macAddress) {
     //$.connection.hub.logging = true;
 
     $.connection.bingoHub.client.desconectar = function () {
-            $.connection.hub.stop();
-            AndroidFunction.DesConectado();
+        DesconectarUsu();
+        AndroidFunction.DesConectado();
+    };
+
+    $.connection.bingoHub.client.IniciarJuego = function () {
+        AndroidFunction.iniciarJuego();
+    };
+
+    $.connection.bingoHub.client.devolverInfoUsuario = function (bingoUsurio) {
+        AndroidFunction.cargarBingoUsuario(bingoUsurio);
     };
 
     $.connection.hub.start({ transport: 'longPolling' }).done(function () {
@@ -59,24 +69,20 @@ function Conectar(usuario, ip, macAddress) {
                       });
             })
             .fail(function (error) {
-                AndroidFunction.showToast(error);
+                //AndroidFunction.showToast(error);
             });
     })
           .fail(function () {
-              AndroidFunction.showToast("Error.");
+              //AndroidFunction.showToast("Error.");
           });
 
     
 
     $.connection.hub.error(function (error) {
-        AndroidFunction.showToast(error);
+        //AndroidFunction.showToast(error);
     });
 
 
-}
-
-function Desconectaruno() {
-    AndroidFunction.showToast("Desconectar.");
 }
 
 
