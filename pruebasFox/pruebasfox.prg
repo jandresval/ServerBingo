@@ -1,17 +1,20 @@
 
+TRY
+
 jsonObject = NEWOBJECT('myObj','d:\projects\c#\serverbingo\pruebasfox\libreriafox\json.prg')
 
 oNet = CREATEOBJECT("ClienteFoxDLL.Funciones")
 
-TRY
+
 
 ?oNet.ConectarServidor()
 
 *Desconectar usuarios
- ?oNet.desconectarUsuario("Jaime5")
+ ?oNet.desconectarUsuario("jaime5")
 
 *!*	*Listar usuarios
 *!*	cInfo = oNet.ListadoUsuarios()
+*!*	?cInfo
 
 *!*	objetoRetorno = json_decode(cInfo)
 
