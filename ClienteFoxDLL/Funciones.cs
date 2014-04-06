@@ -38,7 +38,7 @@ namespace ClienteFoxDLL
             }
             catch (Exception ex)
             {
-                return ex.Message;
+                return ex.ToString();
             }
 
         }
@@ -116,12 +116,31 @@ namespace ClienteFoxDLL
                     {
                         if (task.IsFaulted)
                         {
-                            throw new Exception(config.GetAppSettingValue("errorEnvioIniciJuego") + ":" + task.Exception);
+                            throw new Exception(config.GetAppSettingValue("errorEnvioInicioJuego") + ":" + task.Exception);
                         }
                     });
                 return "Ok";
             }
             catch(Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+
+        public string EnviarBalotas(string balota)
+        {
+            try
+            {
+                myHubProxy.Invoke("EnviarBalota", balota).ContinueWith(task =>
+                    {
+                        if (task.IsFaulted)
+                        {
+                            throw new Exception(config.GetAppSettingValue("errorEnvioBalota") + ":" + task.Exception);
+                        }
+                    });
+                return "Ok";
+            }
+            catch (Exception ex)
             {
                 return ex.Message;
             }

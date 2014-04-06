@@ -21,5 +21,7 @@ namespace ClienteFoxDLL
         string EnviarUsuario(string name);
 
         string IniciarJuego();
+
+        string EnviarBalotas(string balota);
     }
 }

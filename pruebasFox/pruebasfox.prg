@@ -1,7 +1,7 @@
 
 TRY
 
-jsonObject = NEWOBJECT('myObj','d:\projects\c#\serverbingo\pruebasfox\libreriafox\json.prg')
+jsonObject = NEWOBJECT('myObj','g:\projects\c#\serverbingo\pruebasfox\libreriafox\json.prg')
 
 oNet = CREATEOBJECT("ClienteFoxDLL.Funciones")
 
@@ -9,8 +9,8 @@ oNet = CREATEOBJECT("ClienteFoxDLL.Funciones")
 
 ?oNet.ConectarServidor()
 
-*Desconectar usuarios
- ?oNet.desconectarUsuario("jaime5")
+*!*	*Desconectar usuarios
+*!*	 ?oNet.desconectarUsuario("jaime5")
 
 *!*	*Listar usuarios
 *!*	cInfo = oNet.ListadoUsuarios()
@@ -23,11 +23,15 @@ oNet = CREATEOBJECT("ClienteFoxDLL.Funciones")
 *!*	ENDFOR
 
 *!*	* Enviar Usuario
-*!*	?oNet.EnviarUsuario("Jaime5")
+*!*	?oNet.EnviarUsuario("jaime4")
 
 *!*	*Iniciar Juegos
 
 *!*	?oNet.IniciarJuego()
+
+* Mandar balotas
+
+?oNet.EnviarBalotas("70")
 
 ?oNet.DesconectarServidor ()
 

@@ -13,7 +13,7 @@
 <script src="jquery-1.9.0.min.js" type="text/javascript"></script>
 <script src="jquery.signalR.min.js" type="text/javascript"></script>
 <script src="json2.js" type="text/javascript"></script>
-<script src="http://192.168.0.110:8090/signalr/hubs" type="text/javascript"></script>
+<script src="http://192.168.0.118:8090/signalr/hubs" type="text/javascript"></script>
 
 <script type="text/javascript">
 
@@ -22,7 +22,7 @@
 
 $(function () {
             //Set the hubs URL for the connection
-            $.connection.hub.url = 'http://192.168.0.110:8090/signalr';
+            $.connection.hub.url = 'http://192.168.0.118:8090/signalr';
 
 
 });
@@ -47,6 +47,11 @@ function Conectar(usuario, ip, macAddress) {
 
     $.connection.bingoHub.client.devolverInfoUsuario = function (bingoUsurio) {
         AndroidFunction.cargarBingoUsuario(bingoUsurio);
+        AndroidFunction.Conectado();
+    };
+
+    $.connection.bingoHub.client.balota = function (balota) {
+        AndroidFunction.Balota(balota);
     };
 
     $.connection.hub.start({ transport: 'longPolling' }).done(function () {

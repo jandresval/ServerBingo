@@ -51,6 +51,12 @@ namespace ServerBingo
             Clients.All.IniciarJuego();
         }
 
+        public void EnviarBalota(string balota)
+        {
+            balota = balota.Replace(" ", string.Empty);
+            Clients.All.Balota(balota);
+        }
+
         #endregion
 
         #region funcionesCliente
