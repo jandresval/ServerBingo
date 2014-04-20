@@ -11,6 +11,7 @@ using ServerBingo.Models;
 using System.Data.Entity;
 using Newtonsoft.Json;
 using System.Dynamic;
+using ServerBingoModel.ModelsView;
 
 namespace ServerBingo
 {
@@ -90,7 +91,11 @@ namespace ServerBingo
 
             try
             {
-                
+
+                if (!db.Database.Exists())
+                {
+                    return;
+                }
 
                 Bingousuario bingoUsuario = (from n in db.Bingousuarios
                                              where n.Alias == usuarioConexion.Alias 
@@ -174,7 +179,11 @@ namespace ServerBingo
             Bingousuario bingoUsuairo = DevolverUsuario(name);
             if (bingoUsuairo == null)
             {
-                bingoUsuairo = new Bingousuario();
+                bingoUsuairo = new Bingousuario()
+                {
+                    Alias = name,
+                    Activo = false
+                };
             }
 
             return JsonConvert.SerializeObject(bingoUsuairo);
@@ -205,6 +214,8 @@ namespace ServerBingo
 
         }
 
+        
+
         #endregion
 
         #region funcionesServidor
@@ -230,5 +241,6 @@ namespace ServerBingo
         }
 
         #endregion
+
     }
 }

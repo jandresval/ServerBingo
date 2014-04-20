@@ -23,12 +23,30 @@
 $(function () {
             //Set the hubs URL for the connection
             $.connection.hub.url = 'http://192.168.0.118:8090/signalr';
-
-
 });
 
 function DesconectarUsu() {
     $.connection.hub.stop();
+}
+
+function IniciarDescargaTablas() {
+    $.connection.bingoHub.server.iniciarProcesoDescargaTablas(globalUsuario)
+            .done(function (cantidadTablas) {
+                AndroidFunction.TablasReportadas(cantidadTablas);
+            })
+            .fail(function (error) {
+                //AndroidFunction.showToast("Error.");
+            });
+}
+
+function DescargaTablas(inicio, fin) {
+    $.connection.bingoHub.server.retornarTablas(globalUsuario, inicio, fin)
+            .done(function (tablas) {
+                AndroidFunction.DescargaTablas(tablas);
+            })
+            .fail(function (error) {
+                AndroidFunction.DescargaTablas("");
+            });
 }
 
 

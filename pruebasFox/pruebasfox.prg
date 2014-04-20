@@ -9,8 +9,8 @@ oNet = CREATEOBJECT("ClienteFoxDLL.Funciones")
 
 ?oNet.ConectarServidor()
 
-*!*	*Desconectar usuarios
-*!*	 ?oNet.desconectarUsuario("jaime5")
+*Desconectar usuarios
+ ?oNet.desconectarUsuario("jandresv5")
 
 *!*	*Listar usuarios
 *!*	cInfo = oNet.ListadoUsuarios()
@@ -29,9 +29,9 @@ oNet = CREATEOBJECT("ClienteFoxDLL.Funciones")
 
 *!*	?oNet.IniciarJuego()
 
-* Mandar balotas
+*!*	* Mandar balotas
 
-?oNet.EnviarBalotas("70")
+*!*	?oNet.EnviarBalotas("43")
 
 ?oNet.DesconectarServidor ()
 

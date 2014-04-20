@@ -12,7 +12,9 @@ namespace ServerBingo.Models
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    
+    using System.Data.Linq.Mapping;
+
+    [Table(Name= "Bingotbl")]
     public partial class Bingotbl
     {
         public Bingotbl()
