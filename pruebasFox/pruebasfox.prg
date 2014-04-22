@@ -10,7 +10,7 @@ oNet = CREATEOBJECT("ClienteFoxDLL.Funciones")
 ?oNet.ConectarServidor()
 
 *Desconectar usuarios
- ?oNet.desconectarUsuario("jandresv5")
+ ?oNet.desconectarUsuario("jaime5")
 
 *!*	*Listar usuarios
 *!*	cInfo = oNet.ListadoUsuarios()

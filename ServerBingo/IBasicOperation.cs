@@ -16,6 +16,9 @@ namespace ServerBingo
         int IniciarProcesoDescargaTablas(string name);
 
         [OperationContract]
+        int IniciarProcesoDescargaxUsuario(string name);
+
+        [OperationContract]
         string RetornarTablas(string name, int inicial, int final);
     }
 }
