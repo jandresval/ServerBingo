@@ -1,4 +1,5 @@
 ﻿using ServerBingo.ModelsView;
+using ServerBingoModel.ModelsView;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace ServerBingo
     public static class UserHandler
     {
         public static Dictionary<string, UsuarioConexion> Connections = new Dictionary<string, UsuarioConexion>();
+
+        public static Dictionary<string, List<BingotblView>> DataConnections = new Dictionary<string, List<BingotblView>>();
 
         public static UsuarioConexion RetornarConection(string name)
         {

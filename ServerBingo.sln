@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerBingo", "ServerBingo\ServerBingo.csproj", "{0B62BA3F-65CF-4CDB-8C28-21F36FB7A319}"
 	ProjectSection(ProjectDependencies) = postProject
 		{07537A1E-74CC-446D-8015-484390B85881} = {07537A1E-74CC-446D-8015-484390B85881}
@@ -14,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerBingoModel", "ServerBingoModel\ServerBingoModel.csproj", "{91A5652A-4274-43E1-A8E6-448830019561}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteFoxDLL", "ClienteFoxDLL\ClienteFoxDLL.csproj", "{9AE02C29-B770-4B7D-B0C5-D63FD9B56097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestServerBingo", "UnitTestServerBingo\UnitTestServerBingo.csproj", "{D3EE98B1-B9EF-470C-B211-DE448CCDF455}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +111,24 @@ Global
 		{9AE02C29-B770-4B7D-B0C5-D63FD9B56097}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{9AE02C29-B770-4B7D-B0C5-D63FD9B56097}.SingleImage|Any CPU.Build.0 = Release|Any CPU
 		{9AE02C29-B770-4B7D-B0C5-D63FD9B56097}.SingleImage|x86.ActiveCfg = Debug|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.CD_ROM|x86.ActiveCfg = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.DVD-5|x86.ActiveCfg = Debug|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.Ienovo|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.Ienovo|Any CPU.Build.0 = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.Ienovo|x86.ActiveCfg = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.Release|x86.ActiveCfg = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{D3EE98B1-B9EF-470C-B211-DE448CCDF455}.SingleImage|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

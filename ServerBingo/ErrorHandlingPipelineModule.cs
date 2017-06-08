@@ -10,14 +10,15 @@ namespace ServerBingo
 {
     public class ErrorHandlingPipelineModule : HubPipelineModule
     {
-        protected override void OnIncomingError(ExceptionContext ex, IHubIncomingInvokerContext context)
+        protected override void OnIncomingError(ExceptionContext exceptionContext, IHubIncomingInvokerContext invokerContext)
         {
-            Debug.WriteLine("=> Exception " + ex.Error.Message);
-            if (ex.Error.InnerException != null)
+            Debug.WriteLine("=> Exception " + exceptionContext.Error.Message);
+            if (exceptionContext.Error.InnerException != null)
             {
-                Debug.WriteLine("=> Inner Exception " + ex.Error.InnerException.Message);
+                Debug.WriteLine("=> Inner Exception " + exceptionContext.Error.InnerException.Message);
             }
-            base.OnIncomingError(ex, context);
+            base.OnIncomingError(exceptionContext, invokerContext);
+
         }
     }
 }

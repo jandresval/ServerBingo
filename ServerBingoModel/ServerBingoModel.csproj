@@ -62,6 +62,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -69,6 +70,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModelsView\BingotblView.cs" />
     <Compile Include="ModelsView\UsuarioConexion.cs" />
     <Compile Include="Models\Bingobalota.cs" />
     <Compile Include="Models\Bingodia.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="Models\Bingosoc.cs" />
     <Compile Include="Models\Bingotbl.cs" />
     <Compile Include="Models\Bingousuario.cs" />
+    <Compile Include="Models\Bingousutbl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

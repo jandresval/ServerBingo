@@ -11,6 +11,7 @@ using ServerBingo.Models;
 using System.Data.Entity;
 using Newtonsoft.Json;
 using System.Dynamic;
+using ServerBingoModel.ModelsView;
 
 namespace ServerBingo
 {
@@ -71,30 +72,45 @@ namespace ServerBingo
 
         public void ConectarUsuario(UsuarioConexion usuarioConexion)
         {
-            lock (UserHandler.Connections)
-            {
-                usuarioConexion.conectionId = Context.ConnectionId;
-
-                if (UserHandler.Connections.ContainsKey(usuarioConexion.Alias) && !UserHandler.ValidarMac(usuarioConexion))
-                {
-                    throw new HubException("El usuario ya esta conectado.");
-                }
-                else
-                {
-                    UserHandler.Connections.Remove(usuarioConexion.Alias);
-                }
-                UserHandler.Connections.Add(usuarioConexion.Alias, usuarioConexion);
-            }
 
             BingoServerEntities db = new BingoServerEntities();
 
             try
             {
-                
+
+                if (!db.Database.Exists())
+                {
+                    return;
+                }
 
                 Bingousuario bingoUsuario = (from n in db.Bingousuarios
-                                             where n.Alias == usuarioConexion.Alias 
+                                             where n.Alias == usuarioConexion.Alias
                                              select n).FirstOrDefault();
+                if (bingoUsuario == null)
+                {
+                    lock (UserHandler.Connections)
+                    {
+                        UserHandler.Connections.Remove(usuarioConexion.Alias);
+                        usuarioConexion.conectionId = Context.ConnectionId;
+                        UserHandler.Connections.Add(usuarioConexion.Alias, usuarioConexion);
+                    }
+                }
+                else
+                {
+                    if (!(bingoUsuario.Saldoactual == 0))
+                    {
+                        if (!usuarioConexion.Macaddress.Equals(bingoUsuario.Macadress))
+                        {
+                            throw new HubException("El usuario debe conectarse desde el mismo dispositivo.");
+                        }
+                    }
+                    lock (UserHandler.Connections)
+                    {
+                        UserHandler.Connections.Remove(usuarioConexion.Alias);
+                        usuarioConexion.conectionId = Context.ConnectionId;
+                        UserHandler.Connections.Add(usuarioConexion.Alias, usuarioConexion);
+                    }
+                }
 
                 if (bingoUsuario == null)
                 {
@@ -121,14 +137,18 @@ namespace ServerBingo
                 {
                     bingoUsuario.Ultimafechaconexion = DateTime.Now;
                     bingoUsuario.Ultimafechadejuego = DateTime.Now;
+                    bingoUsuario.Ip = usuarioConexion.Ip;
+                    bingoUsuario.Macadress = usuarioConexion.Macaddress;
+                    bingoUsuario.Gpslatitud = usuarioConexion.Gpslatitud;
+                    bingoUsuario.Gpslongitud = usuarioConexion.Gpslongitud;
                     db.Bingousuarios.Attach(bingoUsuario);
                     db.Entry(bingoUsuario).State = EntityState.Modified;
                     db.SaveChanges();
                 }
             }
-            catch
+            catch (HubException ex)
             {
-                
+                throw ex;
             }
 
         }
@@ -174,7 +194,11 @@ namespace ServerBingo
             Bingousuario bingoUsuairo = DevolverUsuario(name);
             if (bingoUsuairo == null)
             {
-                bingoUsuairo = new Bingousuario();
+                bingoUsuairo = new Bingousuario()
+                {
+                    Alias = name,
+                    Activo = false
+                };
             }
 
             return JsonConvert.SerializeObject(bingoUsuairo);
@@ -205,6 +229,8 @@ namespace ServerBingo
 
         }
 
+        
+
         #endregion
 
         #region funcionesServidor
@@ -230,5 +256,6 @@ namespace ServerBingo
         }
 
         #endregion
+
     }
 }

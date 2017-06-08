@@ -21,7 +21,7 @@ namespace ServerBingo
 
                 var hubConfiguration = new HubConfiguration()
                 {
-                    EnableJSONP =true,
+                    EnableJSONP = true,
                     EnableJavaScriptProxies = true,
                     EnableDetailedErrors = true
                 };

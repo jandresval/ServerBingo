@@ -4,6 +4,6 @@ activar=.t.
 saldoactuald = 150000
 usuario = "jaime4"
 
-UPDATE Bingousuarios SET saldoactual=saldoactuald,activo=activar WHERE alias=usuario
+UPDATE Bingo!Bingousuarios SET saldoactual=saldoactuald,activo=activar WHERE alias=usuario
 
 use
