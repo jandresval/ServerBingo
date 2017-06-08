@@ -59,5 +59,11 @@ namespace ServerBingo
                 }
             }
         }
+
+        public static List<string> ListadodeUsuarios()
+        {
+            List<string> retorno = Connections.Keys.ToList();
+            return retorno;
+        }
     }
 }

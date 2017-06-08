@@ -13,7 +13,7 @@
 <script src="jquery-1.9.0.min.js" type="text/javascript"></script>
 <script src="jquery.signalR.min.js" type="text/javascript"></script>
 <script src="json2.js" type="text/javascript"></script>
-<script src="http://192.168.0.110:8090/signalr/hubs" type="text/javascript"></script>
+<script src="http://192.168.0.118:8090/signalr/hubs" type="text/javascript"></script>
 
 <script type="text/javascript">
 
@@ -22,12 +22,14 @@
 
 $(function () {
             //Set the hubs URL for the connection
-            $.connection.hub.url = 'http://192.168.0.110:8090/signalr';
+            $.connection.hub.url = 'http://192.168.0.118:8090/signalr';
 
 
 });
 
-
+function DesconectarUsu() {
+    $.connection.hub.stop();
+}
 
 
 function Conectar(usuario, ip, macAddress) {
@@ -35,8 +37,21 @@ function Conectar(usuario, ip, macAddress) {
     //$.connection.hub.logging = true;
 
     $.connection.bingoHub.client.desconectar = function () {
-            $.connection.hub.stop();
-            AndroidFunction.DesConectado();
+        DesconectarUsu();
+        AndroidFunction.DesConectado();
+    };
+
+    $.connection.bingoHub.client.IniciarJuego = function () {
+        AndroidFunction.iniciarJuego();
+    };
+
+    $.connection.bingoHub.client.devolverInfoUsuario = function (bingoUsurio) {
+        AndroidFunction.cargarBingoUsuario(bingoUsurio);
+        AndroidFunction.Conectado();
+    };
+
+    $.connection.bingoHub.client.balota = function (balota) {
+        AndroidFunction.Balota(balota);
     };
 
     $.connection.hub.start({ transport: 'longPolling' }).done(function () {
@@ -59,24 +74,20 @@ function Conectar(usuario, ip, macAddress) {
                       });
             })
             .fail(function (error) {
-                AndroidFunction.showToast(error);
+                //AndroidFunction.showToast(error);
             });
     })
           .fail(function () {
-              AndroidFunction.showToast("Error.");
+              //AndroidFunction.showToast("Error.");
           });
 
     
 
     $.connection.hub.error(function (error) {
-        AndroidFunction.showToast(error);
+        //AndroidFunction.showToast(error);
     });
 
 
-}
-
-function Desconectaruno() {
-    AndroidFunction.showToast("Desconectar.");
 }
 
 
